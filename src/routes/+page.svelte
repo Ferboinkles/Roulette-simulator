@@ -1,6 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>
-	Visit <a href="https://svelte.dev/docs/kit"
-		>svelte.dev/docs/kit</a
-	> to read the documentation
-</p>
+<div
+	class="@container flex w-full flex-col justify-center text-center font-serif"
+>
+	<h1
+		class="text-center font-serif text-6xl text-blue-800"
+	>
+		Welcome to the Roulette Simulator!
+	</h1>
+</div>
