@@ -14,7 +14,7 @@
 		><img alt="wheel" src="/images/wheel.webp" />
 	</button>
 	<div
-		class="@container flex-row text-right font-serif"
+		class="@container mr-15 flex-row text-right font-serif"
 	>
 		<button
 			class="my-1 max-w-fit rounded-[0.5em] bg-black font-serif whitespace-normal text-white hover:scale-110 hover:animate-bounce"
@@ -28,7 +28,7 @@
 		</button>
 	</div>
 	<div
-		class="@container flex-row text-right font-serif"
+		class="@container mr-15 flex-row text-right font-serif"
 	>
 		<button
 			class=" my-1 max-w-fit rounded-[0.5em] bg-green-800 font-serif whitespace-normal hover:scale-110 hover:animate-bounce"
@@ -42,7 +42,7 @@
 		</button>
 	</div>
 	<div
-		class="@container flex-row text-right font-serif"
+		class="@container mr-15 flex-row text-right font-serif"
 	>
 		<button
 			class=" my-1 max-w-fit rounded-[0.5em] bg-red-700 font-serif whitespace-normal hover:scale-110 hover:animate-bounce"
