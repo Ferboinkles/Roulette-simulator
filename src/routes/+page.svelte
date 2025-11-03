@@ -1,7 +1,3 @@
-<script>
-	let bets = $state(0);
-</script>
-
 <h1
 	class="text-center font-serif text-4xl text-blue-800"
 >
@@ -10,7 +6,8 @@
 <div
 	class="@container flex-row text-center font-serif"
 >
-	<button class=" fixed hover:animate-spin"
+	<button
+		class="max-w-fit flex-col text-center hover:animate-spin"
 		><img alt="wheel" src="/images/wheel.webp" />
 	</button>
 	<div
@@ -54,5 +51,14 @@
 		>
 			Low
 		</button>
+		<div
+			class="@container flex-row text-right font-serif"
+		>
+			<button
+				class=" my-1 max-w-fit rounded-[0.5em] bg-green-800 font-serif whitespace-normal hover:scale-110 hover:animate-bounce"
+			>
+				Dozens (1-12,12-24 or 24-36)
+			</button>
+		</div>
 	</div>
 </div>
