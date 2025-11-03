@@ -44,7 +44,7 @@
 		<button
 			class=" my-1 max-w-fit rounded-[0.5em] bg-red-700 font-serif whitespace-normal hover:scale-110 hover:animate-bounce"
 		>
-			High
+			High (19-36)
 		</button>
 		<button
 			class=" my-1 max-w-fit rounded-[0.5em] bg-green-800 font-serif whitespace-normal hover:scale-110 hover:animate-bounce"
