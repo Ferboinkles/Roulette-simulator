@@ -4,7 +4,7 @@
 	Welcome to the Roulette Simulator!
 </h1>
 <div
-	class="@container flex-row text-center font-serif"
+	class="@container min-h-full flex-row text-center font-serif"
 >
 	<button
 		class="max-w-fit flex-col text-center hover:animate-spin"
