@@ -1,4 +1,4 @@
-<h1 class="text-center font-serif text-4xl text-blue-800">Welcome to the Roulette Simulator!</h1>
+<h1 class="text-center font-serif text-5xl text-cyan-600">Welcome to the Roulette Simulator!</h1>
 <div class="@container min-h-full flex-row text-center font-serif">
 	<button class="w-[35%] text-center hover:animate-spin"
 		><img alt="wheel" src="/images/wheel.webp" class="mx-auto my-4 aspect-[1/1] w-full object-cover" />
