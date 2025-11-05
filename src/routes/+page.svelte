@@ -21,6 +21,7 @@
 		</button>
 		<button
 			class="my-1 max-w-fit rounded-[0.5em] bg-red-700 p-[0.5em] font-serif whitespace-normal hover:animate-bounce"
+			onclick={goto("/Red-button")}
 		>
 			Red (1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30, 32, 34, and 36)
 		</button>
