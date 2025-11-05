@@ -1,4 +1,9 @@
+<script>
+	import { goto } from "$app/navigation";
+</script>
+
 <h1 class="text-center font-serif text-5xl text-cyan-600">Welcome to the Roulette Simulator!</h1>
+<h2 class="text-center font-serif text-2xl text-cyan-600">Click on a button to see the probability of your bet!</h2>
 <div class="@container min-h-full flex-row text-center font-serif">
 	<button class="w-[35%] text-center hover:animate-spin"
 		><img alt="wheel" src="/images/wheel.webp" class="mx-auto my-4 aspect-[1/1] w-full object-cover" />
