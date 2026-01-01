@@ -8,7 +8,7 @@
 	let expectedLoss = loseProbability * bet;
 	let expectedValue = (expectedWin - expectedLoss)* 100;
 </script>
-<button class="text-black text-left text-xl rounded-2xl p-[0.5em] bg-white max-w-fit" onclick={goto("/main")}>Back to home</button>
+<button class="text-black text-left text-xl rounded-2xl p-[0.5em] bg-white max-w-fit" onclick={goto("/")}>Back to home</button>
 <h1 class=" text-white font-serif text-center text-5xl mt-2">You have chosen to bet on even!</h1>
 <h2 class="text-black text-left text-xl rounded-2xl p-[0.5em] bg-white max-w-fit">money = ${money-bet}</h2>
 

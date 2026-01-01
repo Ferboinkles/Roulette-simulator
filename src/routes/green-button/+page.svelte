@@ -2,13 +2,13 @@
 	import { goto } from "$app/navigation";
 	let money = $state(1000000);
 	let bet = $state(1);
-	let winProbability = 0.0270
-	let loseProbability = 0.5135
+	let winProbability = 0.027
+	let loseProbability = 0.983
 	let expectedWin = winProbability * bet;
 	let expectedLoss = loseProbability * bet;
 	let expectedValue = (expectedWin - expectedLoss)* 100;
 </script>
-<button class="text-black text-left text-xl rounded-2xl p-[0.5em] bg-white max-w-fit" onclick={goto("/main")}>Back to home</button>
+<button class="text-black text-left text-xl rounded-2xl p-[0.5em] bg-white max-w-fit" onclick={goto("/")}>Back to home</button>
 <h1 class=" text-white font-serif text-center text-5xl mt-2">You have chosen to bet on green!</h1>
 <h2 class="text-black text-left text-xl rounded-2xl p-[0.5em] bg-white max-w-fit">money = ${money-bet}</h2>
 
