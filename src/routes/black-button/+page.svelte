@@ -9,10 +9,10 @@
 	let expectedValue = (expectedWin - expectedLoss)* 100;
 </script>
 <button class="text-black text-left text-xl rounded-2xl p-[0.5em] bg-white max-w-fit" onclick={goto("/main")}>Back to home</button>
-<h1 class=" text-white font-serif text-center text-5xl mt-2">You have chosen to bet on red!</h1>
+<h1 class=" text-white font-serif text-center text-5xl mt-2">You have chosen to bet on black!</h1>
 <h2 class="text-black text-left text-xl rounded-2xl p-[0.5em] bg-white max-w-fit">money = ${money-bet}</h2>
 
-	<div class="text-center">
+<div class="text-center">
 	<input
 		id="bet"
 		class="mx-auto w-20 invalid:outline-red-500 disabled:cursor-not-allowed rounded-3xl"
@@ -20,15 +20,15 @@
 		type="number"
 		min="1"
 	/></div>
-	{#if bet !== null && bet > 1 && bet !== ""}
-		<p class="mx-auto max-w-fit text-2xl text-white text-shadow-2xs md:text-3xl">
-			You are going to bet {bet}!
-		</p>
-	{/if}
+{#if bet !== null && bet > 1 && bet !== ""}
+	<p class="mx-auto max-w-fit text-2xl text-white text-shadow-2xs md:text-3xl">
+		You are going to bet {bet}!
+	</p>
+{/if}
 {#if bet<=0}
-<p class="mx-auto max-w-fit text-2xl text-white text-shadow-2xs md:text-3xl">
-	You cannot bet that much!
-</p>
+	<p class="mx-auto max-w-fit text-2xl text-white text-shadow-2xs md:text-3xl">
+		You cannot bet that much!
+	</p>
 {/if}
 
 <h2 class="text-white text-3xl text-center">Your expected win is ${expectedWin} and your expected loss is ${expectedLoss} and your expected loss is {expectedValue}%</h2>
