@@ -3,13 +3,13 @@
 	let money = $state(1000000);
 	let bet = $state(1);
 	let winProbability = 0.4865
-	let loseProbability = 0.5135
+	let loseProbability = 0.51
 	let expectedWin = winProbability * bet;
 	let expectedLoss = loseProbability * bet;
 	let expectedValue = (expectedWin - expectedLoss)* 100;
 </script>
 <button class="text-black text-left text-xl rounded-2xl p-[0.5em] bg-white max-w-fit" onclick={goto("/main")}>Back to home</button>
-<h1 class=" text-white font-serif text-center text-5xl mt-2">You have chosen to bet high!</h1>
+<h1 class=" text-white font-serif text-center text-5xl mt-2">You have chosen to bet on odd!</h1>
 <h2 class="text-black text-left text-xl rounded-2xl p-[0.5em] bg-white max-w-fit">money = ${money-bet}</h2>
 
 <div class="text-center">
