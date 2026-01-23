@@ -3,9 +3,9 @@
 	let bet = $state(1);
 	let winProbability = 0.4865;
 	let loseProbability = 0.51;
-	let expectedWin = winProbability * bet;
-	let expectedLoss = loseProbability * bet;
-	let expectedValue = (expectedWin - expectedLoss) * 100;
+	let expectedWin = $derived(winProbability * bet);
+	let expectedLoss = $derived(loseProbability * bet);
+	let expectedValue = $derived((expectedWin - expectedLoss) * 100);
 </script>
 
 <h1 class=" mt-2 text-center font-serif text-5xl text-white">You have chosen to bet on even!</h1>
