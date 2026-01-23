@@ -9,7 +9,7 @@
 <h1 class="text-center font-serif text-5xl text-cyan-600">Welcome to the Roulette Simulator!</h1>
 <h2 class="text-center font-serif text-2xl text-cyan-600">Click on a button to see the probability of your bet!</h2>
 <div class="@container min-h-full flex-row text-center font-serif">
-	<img alt="wheel" src="/images/wheel.webp" class=" mx-auto my-4 aspect-[1/1] w-[35%] animate-spin object-cover" />
+	<img alt="wheel" src="/images/wheel.webp" class=" mx-auto my-4 aspect-square w-[35%] animate-spin object-cover" />
 	<div class="@container mr-15 flex-row text-center font-serif">
 		<button
 			onclick={goto("/black-button")}
